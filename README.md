@@ -6,8 +6,8 @@
   
 ⚠️ How to change the app / config ⚠️
 
- ⚙️ you can open : server.js 
- ⚙️ you can open : package.json 
+ <br>⚙️ you can open : server.js 
+ <br>⚙️ you can open : package.json 
 
 ❌ if you want to designing the error page ❌
 
