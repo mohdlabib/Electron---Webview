@@ -1,0 +1,21 @@
+{
+  "name": "prj-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "electron-online": "^1.0.0",
+    "is-online": "^9.0.0",
+    "path": "^0.12.7",
+    "url-exist": "^2.0.2"
+  }
+}

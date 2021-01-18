@@ -1,0 +1,176 @@
+.card {
+    border-radius: 30px;
+
+    .connection {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        color: rgb(255, 102, 0);
+        margin-top: 10px;
+        font-size: 45px;
+    }
+
+    .connection-icon {
+        margin-top: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .cpu {
+        width: 65px;
+
+    }
+
+    .www,
+    .server {
+        width: 50px;
+    }
+
+    .success {
+        .one {
+            position: absolute;
+            top: 22px;
+            left: 170px;
+            color: rgb(30, 255, 0);
+            font-size: 20px;
+        }
+
+        .two {
+            position: absolute;
+            top: 22px;
+            left: 350px;
+            color: rgb(30, 255, 0);
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 1400px) {
+            .one {
+                position: absolute;
+                top: 22px;
+                left: 150px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+
+            .two {
+                position: absolute;
+                top: 22px;
+                left: 285px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .one {
+                position: absolute;
+                top: 22px;
+                left: 125px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+
+            .two {
+                position: absolute;
+                top: 22px;
+                left: 220px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+            .one {
+                position: absolute;
+                top: 22px;
+                left: 190px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+
+            .two {
+                position: absolute;
+                top: 22px;
+                left: 390px;
+                color: rgb(30, 255, 0);
+                font-size: 20px;
+            }
+        }
+    }
+
+    .close {
+        .one {
+            color: rgb(255, 0, 0);
+            position: absolute;
+            top: 22px;
+            left: 180px;
+            font-size: 20px;
+        }
+
+        .two {
+            color: rgb(255, 0, 0);
+            position: absolute;
+            top: 22px;
+            left: 360px;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 1400px) {
+            .one {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 150px;
+                font-size: 20px;
+            }
+
+            .two {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 285px;
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .one {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 130px;
+                font-size: 20px;
+            }
+
+            .two {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 220px;
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+            .one {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 190px;
+                font-size: 20px;
+            }
+
+            .two {
+                color: rgb(255, 0, 0);
+                position: absolute;
+                top: 22px;
+                left: 400px;
+                font-size: 20px;
+            }
+        }
+    }
+}
